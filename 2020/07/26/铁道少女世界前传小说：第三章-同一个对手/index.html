@@ -578,13 +578,13 @@ body h6 {
 #colibri .style-38-image {
   max-height: 70px;
 }
+#colibri .style-38 .logo-text {
+  color: #FFFFFF;
+}
 #colibri .style-38 a,#colibri .style-38  .logo-text {
   color: #ffffff;
   text-decoration: none;
   font-size: 24px;
-}
-#colibri .style-38 .logo-text {
-  color: #FFFFFF;
 }
 #colibri .h-navigation_sticky .style-38-image,#colibri .h-navigation_sticky.style-38-image {
   max-height: 70px;
@@ -598,59 +598,65 @@ body h6 {
   height: auto;
   min-height: unset;
 }
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu {
-  justify-content: flex-end;
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a >  .arrow-wrapper {
+  color: rgb(255, 255, 255);
 }
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li {
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > .arrow-wrapper,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > .arrow-wrapper {
+  color: rgb(255, 255, 255);
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu  li > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu  li > a >  .arrow-wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > .arrow-wrapper,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > .arrow-wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: black;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > ul::before {
+  height: 0px;
+  width: 100% ;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > ul {
   margin-top: 0px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  margin-left: 20px;
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 0px;
 }
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover {
-  margin-top: 0px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  margin-left: 20px;
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-bottom: 10px;
-  padding-left: 0px;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
-  font-family: Open Sans;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1.5em;
-  letter-spacing: 0px;
-  color: rgb(2, 110, 159);
-}
-#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
-  color: #03a9f4;
-}
-#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li:hover > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
-  color: #03a9f4;
-}
-#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
-  font-family: Open Sans;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1.5em;
-  letter-spacing: 0px;
-  color: #03a9f4;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul {
-  background-color: #ffffff;
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu.solid-active-item > li::after,#colibri .style-42 
+      ul.colibri-menu.solid-active-item > li::before {
+  background-color: white;
   background-image: none;
-  margin-right: 5px;
-  margin-left: 5px;
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04) ;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-left-width: 0px;
+  border-left-style: none;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .style-42 
+      ul.colibri-menu.bordered-active-item > li::before {
+  background-color: #03a9f4;
+  background-image: none;
+  height: 3px;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li > a {
+  font-size: 14px;
+  color: rgb(37, 41, 42);
+}
+#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover  > a {
+  color: rgb(255, 255, 255);
+}
+#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li:hover > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover  > a {
+  color: rgb(255, 255, 255);
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a:hover {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
 }
 #colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li {
   padding-top: 10px;
@@ -692,65 +698,65 @@ body h6 {
   background-color: #03a9f4;
   background-image: none;
 }
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li > a {
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul {
+  background-color: #ffffff;
+  background-image: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.04) ;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
   font-size: 14px;
-  color: rgb(37, 41, 42);
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  color: rgb(2, 110, 159);
 }
-#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover  > a {
-  color: rgb(255, 255, 255);
+#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
+  color: #03a9f4;
 }
-#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li:hover > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.hover  > a {
-  color: rgb(255, 255, 255);
+#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li:hover > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.hover  > a {
+  color: #03a9f4;
 }
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a:hover {
+#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
+  font-family: Open Sans;
+  font-weight: 600;
+  text-transform: uppercase;
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  color: #03a9f4;
 }
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .style-42 
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item,#colibri .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu {
+  justify-content: flex-end;
+}
+#colibri .h-navigation_sticky .style-42 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .h-navigation_sticky .style-42 
+      ul.colibri-menu.bordered-active-item > li::before,#colibri .h-navigation_sticky.style-42 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .h-navigation_sticky.style-42 
       ul.colibri-menu.bordered-active-item > li::before {
   background-color: #03a9f4;
   background-image: none;
-  height: 3px;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu.solid-active-item > li::after,#colibri .style-42 
-      ul.colibri-menu.solid-active-item > li::before {
-  background-color: white;
-  background-image: none;
-  border-top-width: 0px;
-  border-top-style: none;
-  border-top-left-radius: 0%;
-  border-top-right-radius: 0%;
-  border-right-width: 0px;
-  border-right-style: none;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-bottom-left-radius: 0%;
-  border-bottom-right-radius: 0%;
-  border-left-width: 0px;
-  border-left-style: none;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > ul {
-  margin-top: 0px;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > ul::before {
-  height: 0px;
-  width: 100% ;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu  li > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu  li > a >  .arrow-wrapper {
-  padding-right: 5px;
-  padding-left: 5px;
-  color: black;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li.current_page_item > a > .arrow-wrapper,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item:hover > a > .arrow-wrapper {
-  padding-right: 5px;
-  padding-left: 5px;
-  color: black;
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a >  .arrow-wrapper {
-  color: rgb(255, 255, 255);
-}
-#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > svg,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > .arrow-wrapper,#colibri .style-42 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > .arrow-wrapper {
-  color: rgb(255, 255, 255);
 }
 #colibri .h-navigation_sticky .style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > a,#colibri .h-navigation_sticky.style-42 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
   color: rgb(2, 110, 159);
@@ -763,12 +769,6 @@ body h6 {
 }
 #colibri .h-navigation_sticky .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .h-navigation_sticky .style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover,#colibri .h-navigation_sticky.style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .h-navigation_sticky.style-42  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
   color: #03a9f4;
-}
-#colibri .h-navigation_sticky .style-42 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .h-navigation_sticky .style-42 
-      ul.colibri-menu.bordered-active-item > li::before,#colibri .h-navigation_sticky.style-42 >  div > .colibri-menu-container > ul.colibri-menu.bordered-active-item > li::after,#colibri .h-navigation_sticky.style-42 
-      ul.colibri-menu.bordered-active-item > li::before {
-  background-color: #03a9f4;
-  background-image: none;
 }
 #colibri .style-43-offscreen {
   background-color: #222B34;
@@ -830,81 +830,15 @@ body h6 {
   height: auto;
   min-height: unset;
 }
-#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  border-top-width: 0px;
-  border-top-color: #808080;
-  border-top-style: solid;
-  border-right-width: 0px;
-  border-right-color: #808080;
-  border-right-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #808080;
-  border-bottom-style: solid;
-  border-left-width: 0px;
-  border-left-color: #808080;
-  border-left-style: solid;
-  font-size: 14px;
+#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a >  .arrow-wrapper {
   color: white;
+  padding-right: 20px;
+  padding-left: 20px;
 }
-#colibri .style-50  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .style-50  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  border-top-width: 0px;
-  border-top-color: #808080;
-  border-top-style: solid;
-  border-right-width: 0px;
-  border-right-color: #808080;
-  border-right-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #808080;
-  border-bottom-style: solid;
-  border-left-width: 0px;
-  border-left-color: #808080;
-  border-left-style: solid;
-  font-size: 14px;
+#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > .arrow-wrapper,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > .arrow-wrapper {
   color: white;
-}
-#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li > a {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  border-top-width: 0px;
-  border-top-color: #808080;
-  border-top-style: solid;
-  border-right-width: 0px;
-  border-right-color: #808080;
-  border-right-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #808080;
-  border-bottom-style: solid;
-  border-left-width: 0px;
-  border-left-color: #808080;
-  border-left-style: solid;
-  font-size: 14px;
-  color: white;
-}
-#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a,#colibri .style-50  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a:hover {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  border-top-width: 0px;
-  border-top-color: #808080;
-  border-top-style: solid;
-  border-right-width: 0px;
-  border-right-color: #808080;
-  border-right-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #808080;
-  border-bottom-style: solid;
-  border-left-width: 0px;
-  border-left-color: #808080;
-  border-left-style: solid;
-  font-size: 14px;
-  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 #colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu  li > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu  li > a >  .arrow-wrapper {
   padding-right: 20px;
@@ -916,15 +850,81 @@ body h6 {
   padding-left: 20px;
   color: black;
 }
-#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul  li > a >  .arrow-wrapper {
+#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li > a {
+  font-size: 14px;
   color: white;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
 }
-#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > svg,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul li.current_page_item > a > .arrow-wrapper,#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item:hover > a > .arrow-wrapper {
+#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a,#colibri .style-50  >  div > .colibri-menu-container > ul.colibri-menu li > ul > li.current_page_item > a:hover {
+  font-size: 14px;
   color: white;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
+}
+#colibri .style-50 >  div > .colibri-menu-container > ul.colibri-menu > li > a {
+  font-size: 14px;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
+}
+#colibri .style-50  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a,#colibri .style-50  >  div > .colibri-menu-container > ul.colibri-menu > li.current_page_item > a:hover {
+  font-size: 14px;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  border-top-width: 0px;
+  border-top-color: #808080;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-color: #808080;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #808080;
+  border-bottom-style: solid;
+  border-left-width: 0px;
+  border-left-color: #808080;
+  border-left-style: solid;
 }
 #colibri .style-57 {
   min-height: 423px;
@@ -932,7 +932,7 @@ body h6 {
   background-color: #03a9f4;
   background-position: 31.479700649693175% 0%;
   background-size: cover;
-  background-image: url("https://cdn.jsdelivr.net/gh/RailForWork/Railway-Girls/wp-content/uploads/2020/07/66986882_p0.jpg");
+  background-image: url("https://girls.rail.moe/wp-content/uploads/2020/07/66986882_p0.jpg");
   background-attachment: scroll;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -996,11 +996,11 @@ body h6 {
 #colibri .style-650 {
   text-align: left;
 }
-#colibri .style-650 ol {
-  list-style-type: decimal;
-}
 #colibri .style-650 ul {
   list-style-type: disc;
+}
+#colibri .style-650 ol {
+  list-style-type: decimal;
 }
 #colibri .style-local-132-h4-outer {
   flex: 0 0 auto;
@@ -1076,59 +1076,6 @@ body h6 {
   border-left-width: 0px;
   border-left-style: none;
 }
-#colibri .style-168 .widget {
-  text-align: left;
-  border-top-width: 0px;
-  border-top-style: none;
-  border-right-width: 0px;
-  border-right-style: none;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-left-width: 0px;
-  border-left-style: none;
-  margin-bottom: 20px;
-}
-#colibri .style-168 .widget h1,#colibri .style-168 .widget h2,#colibri .style-168 .widget h3,#colibri .style-168 .widget h4,#colibri .style-168 .widget h5,#colibri .style-168 .widget h6 {
-  font-family: Open Sans;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #17252a;
-  border-top-width: 0px;
-  border-top-style: none;
-  border-right-width: 0px;
-  border-right-style: none;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-left-width: 0px;
-  border-left-style: none;
-  margin-bottom: 10px;
-}
-#colibri .style-168 .widget ul,#colibri .style-168 .widget ol {
-  list-style-type: none;
-}
-#colibri .style-168 .widget ul li,#colibri .style-168 .widget ol li,#colibri .style-168 .widget  .textwidget p,#colibri .style-168 .widget  .calendar_wrap td ,#colibri .style-168  .widget  .calendar_wrap th ,#colibri .style-168  .widget  .calendar_wrap caption {
-  font-family: Open Sans;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 14px;
-  color: rgb(37, 41, 42);
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-#colibri .style-168 .widget ul li a {
-  font-family: Open Sans;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 14px;
-  color: rgb(102, 102, 102);
-}
-#colibri .style-168 .widget ul li a:hover {
-  color: rgb(0, 0, 0);
-}
-#colibri .style-168 .widget ul li a:hover {
-  color: rgb(0, 0, 0);
-}
 #colibri .style-168 .widget input:not([type="submit"]) {
   font-family: Open Sans;
   font-weight: 400;
@@ -1147,75 +1094,64 @@ body h6 {
   border-left-color: black;
   border-left-style: none;
 }
-#colibri .style-168 .widget.widget_search {
-  background-color: unset;
-  background-image: none;
-  border-top-width: 1px;
-  border-top-color: rgb(238, 238, 238);
-  border-top-style: solid;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-right-width: 1px;
-  border-right-color: rgb(238, 238, 238);
-  border-right-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgb(238, 238, 238);
-  border-bottom-style: solid;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-left-width: 1px;
-  border-left-color: rgb(238, 238, 238);
-  border-left-style: solid;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  margin-bottom: 15px;
+#colibri .style-168 .widget ul li a {
+  font-family: Open Sans;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
 }
-#colibri .style-168 .widget.widget_search h1,#colibri .style-168 .widget.widget_search h2,#colibri .style-168 .widget.widget_search h3,#colibri .style-168 .widget.widget_search h4,#colibri .style-168 .widget.widget_search h5,#colibri .style-168 .widget.widget_search h6 {
-  border-top-width: 0px;
-  border-top-style: none;
-  border-right-width: 0px;
-  border-right-style: none;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-left-width: 0px;
-  border-left-style: none;
+#colibri .style-168 .widget ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+#colibri .style-168 .widget ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+#colibri .style-168 .widget ul li,#colibri .style-168 .widget ol li,#colibri .style-168 .widget  .textwidget p,#colibri .style-168 .widget  .calendar_wrap td ,#colibri .style-168  .widget  .calendar_wrap th ,#colibri .style-168  .widget  .calendar_wrap caption {
+  font-family: Open Sans;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(37, 41, 42);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#colibri .style-168 .widget ul,#colibri .style-168 .widget ol {
+  list-style-type: none;
+}
+#colibri .style-168 .widget h1,#colibri .style-168 .widget h2,#colibri .style-168 .widget h3,#colibri .style-168 .widget h4,#colibri .style-168 .widget h5,#colibri .style-168 .widget h6 {
+  font-family: Open Sans;
+  font-weight: 600;
   font-size: 16px;
+  line-height: 1.6;
   color: #17252a;
-}
-#colibri .style-168 .widget.widget_search input:not([type="submit"]) {
-  padding-top: 10px;
-  padding-right: 12px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  font-size: 16px;
-  color: rgb(37, 41, 42);
-  background-color: rgb(249, 250, 251);
-  background-image: none;
   border-top-width: 0px;
-  border-top-color: rgb(222, 222, 222);
   border-top-style: none;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 0px;
   border-right-width: 0px;
-  border-right-color: rgb(222, 222, 222);
   border-right-style: none;
   border-bottom-width: 0px;
-  border-bottom-color: rgb(222, 222, 222);
   border-bottom-style: none;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 0px;
   border-left-width: 0px;
-  border-left-color: rgb(222, 222, 222);
   border-left-style: none;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+  margin-bottom: 10px;
 }
-#colibri .style-168 .widget.widget_search input:not([type="submit"])::placeholder {
-  color: rgb(37, 41, 42);
+#colibri .style-168 .widget {
+  text-align: left;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-left-width: 0px;
+  border-left-style: none;
+  margin-bottom: 20px;
+}
+#colibri .style-168 .widget.widget_search button[type="submit"] {
+  display: inline-block;
+}
+#colibri .style-168 .widget.widget_search input[type="submit"] {
+  display: none;
 }
 #colibri .style-168 .widget.widget_search input[type="submit"],#colibri .style-168 .widget.widget_search button[type="submit"] {
   background-color: rgb(249, 250, 251);
@@ -1253,11 +1189,75 @@ body h6 {
 #colibri .style-168 .widget.widget_search input[type="submit"]:hover,#colibri .style-168 .widget.widget_search button[type="submit"]:hover {
   color: #03a9f4;
 }
-#colibri .style-168 .widget.widget_search input[type="submit"] {
-  display: none;
+#colibri .style-168 .widget.widget_search input:not([type="submit"])::placeholder {
+  color: rgb(37, 41, 42);
 }
-#colibri .style-168 .widget.widget_search button[type="submit"] {
-  display: inline-block;
+#colibri .style-168 .widget.widget_search input:not([type="submit"]) {
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: rgb(37, 41, 42);
+  background-color: rgb(249, 250, 251);
+  background-image: none;
+  border-top-width: 0px;
+  border-top-color: rgb(222, 222, 222);
+  border-top-style: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-right-width: 0px;
+  border-right-color: rgb(222, 222, 222);
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-color: rgb(222, 222, 222);
+  border-bottom-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-left-width: 0px;
+  border-left-color: rgb(222, 222, 222);
+  border-left-style: none;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+#colibri .style-168 .widget.widget_search h1,#colibri .style-168 .widget.widget_search h2,#colibri .style-168 .widget.widget_search h3,#colibri .style-168 .widget.widget_search h4,#colibri .style-168 .widget.widget_search h5,#colibri .style-168 .widget.widget_search h6 {
+  border-top-width: 0px;
+  border-top-style: none;
+  border-right-width: 0px;
+  border-right-style: none;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-left-width: 0px;
+  border-left-style: none;
+  font-size: 16px;
+  color: #17252a;
+}
+#colibri .style-168 .widget.widget_search {
+  background-color: unset;
+  background-image: none;
+  border-top-width: 1px;
+  border-top-color: rgb(238, 238, 238);
+  border-top-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right-width: 1px;
+  border-right-color: rgb(238, 238, 238);
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(238, 238, 238);
+  border-bottom-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-width: 1px;
+  border-left-color: rgb(238, 238, 238);
+  border-left-style: solid;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-bottom: 15px;
 }
 #colibri .style-local-150-s4-outer {
   width: 100% ;
@@ -1992,8 +1992,8 @@ var colibriData = {"132-h2":{"data":{"sticky":{"className":"h-navigation_sticky 
                     <div data-colibri-id="132-h5" class="d-flex align-items-center text-lg-left text-md-left text-left justify-content-lg-start justify-content-md-start justify-content-start style-38 style-local-132-h5 position-relative h-element">
                       <!---->
                       <a rel="home" href="https://girls.rail.moe/" h-use-smooth-scroll="true" class="d-flex align-items-center">
-                        <img src="https://cdn.jsdelivr.net/gh/RailForWork/Railway-Girls/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__image h-logo__image_h logo-image style-38-image style-local-132-h5-image" alt="" />
-                        <img src="https://cdn.jsdelivr.net/gh/RailForWork/Railway-Girls/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-38-image style-local-132-h5-image" alt="" />
+                        <img src="https://girls.rail.moe/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__image h-logo__image_h logo-image style-38-image style-local-132-h5-image" alt="" />
+                        <img src="https://girls.rail.moe/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-38-image style-local-132-h5-image" alt="" />
                       </a>
                     </div>
                   </div>
@@ -2023,12 +2023,13 @@ var colibriData = {"132-h2":{"data":{"sticky":{"className":"h-navigation_sticky 
                     <!---->
                     <div data-colibri-component="dropdown-menu" role="navigation" h-use-smooth-scroll-all="true" data-colibri-id="132-h9" class="h-menu h-global-transition-all h-ignore-global-body-typography has-offcanvas-tablet h-menu-horizontal h-dropdown-menu style-42 style-local-132-h9 position-relative h-element">
                       <!---->
-                      <div class="h-global-transition-all h-main-menu"><div class="colibri-menu-container"><ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95" class="colibri-menu bordered-active-item bordered-active-item--bottom effect-borders-grow grow-from-center"><li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://girls.rail.moe/">首页</a></li>
+                      <div class="h-global-transition-all h-main-menu"><div class="colibri-menu-container"><ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95" class="colibri-menu bordered-active-item bordered-active-item--bottom effect-borders-grow grow-from-center"><li id="menu-item-1811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1811"><a href="https://girls.rail.moe/">首页</a></li>
 <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://girls.rail.moe/%e5%8d%9a%e5%ae%a2/">新闻/文章</a></li>
 <li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://girls.rail.moe/%e4%bd%9c%e5%93%81%e5%88%97%e8%a1%a8/">作品列表</a></li>
 <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://girls.rail.moe/%e8%a7%92%e8%89%b2%e5%88%97%e8%a1%a8/">角色列表</a></li>
 <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="https://girls.rail.moe/%e5%90%8c%e4%ba%ba%e4%bd%9c%e5%93%81/">同人作品</a></li>
 <li id="menu-item-638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-638"><a href="https://wiki.rail.moe">铁道少女百科</a></li>
+<li id="menu-item-1813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1813"><a href="https://rail.moe">RFW论坛</a></li>
 </ul></div></div>
                       <div data-colibri-id="132-h10" class="h-mobile-menu h-global-transition-disable style-43 style-local-132-h10 position-relative h-element">
                         <!---->
@@ -2060,8 +2061,8 @@ var colibriData = {"132-h2":{"data":{"sticky":{"className":"h-navigation_sticky 
                                         <div data-colibri-id="132-h15" class="d-flex align-items-center text-lg-center text-md-center text-center justify-content-lg-center justify-content-md-center justify-content-center style-47 style-local-132-h15 position-relative h-element">
                                           <!---->
                                           <a rel="home" href="https://girls.rail.moe/" h-use-smooth-scroll="true" class="d-flex align-items-center">
-                                            <img src="https://cdn.jsdelivr.net/gh/RailForWork/Railway-Girls/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__image h-logo__image_h logo-image style-47-image style-local-132-h15-image" alt="" />
-                                            <img src="https://cdn.jsdelivr.net/gh/RailForWork/Railway-Girls/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-47-image style-local-132-h15-image" alt="" />
+                                            <img src="https://girls.rail.moe/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__image h-logo__image_h logo-image style-47-image style-local-132-h15-image" alt="" />
+                                            <img src="https://girls.rail.moe/wp-content/uploads/2020/07/8JKHGOXXH1VILHUAV7PM4O.png" class="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-47-image style-local-132-h15-image" alt="" />
                                           </a>
                                         </div>
                                       </div>
@@ -2074,12 +2075,13 @@ var colibriData = {"132-h2":{"data":{"sticky":{"className":"h-navigation_sticky 
                               <!---->
                               <div data-colibri-component="accordion-menu" role="navigation" h-use-smooth-scroll-all="true" data-colibri-id="132-h12" class="h-menu h-global-transition-all h-ignore-global-body-typography h-mobile-menu h-menu-accordion style-50 style-local-132-h12 position-relative h-element">
                                 <!---->
-                                <div class="h-global-transition-all h-mobile-menu"><div class="colibri-menu-container"><ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95-1" class="colibri-menu none "><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://girls.rail.moe/">首页</a></li>
+                                <div class="h-global-transition-all h-mobile-menu"><div class="colibri-menu-container"><ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95-1" class="colibri-menu none "><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1811"><a href="https://girls.rail.moe/">首页</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://girls.rail.moe/%e5%8d%9a%e5%ae%a2/">新闻/文章</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://girls.rail.moe/%e4%bd%9c%e5%93%81%e5%88%97%e8%a1%a8/">作品列表</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://girls.rail.moe/%e8%a7%92%e8%89%b2%e5%88%97%e8%a1%a8/">角色列表</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="https://girls.rail.moe/%e5%90%8c%e4%ba%ba%e4%bd%9c%e5%93%81/">同人作品</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-638"><a href="https://wiki.rail.moe">铁道少女百科</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1813"><a href="https://rail.moe">RFW论坛</a></li>
 </ul></div></div>
                               </div>
                             </div>
@@ -2694,9 +2696,44 @@ var colibriData = {"132-h2":{"data":{"sticky":{"className":"h-navigation_sticky 
     </div>
 </form>
 </div></div><div id="text-3" class="widget widget_text"><!--colibriwp_before_widget--><h5 class="widgettitle">关于本站</h5><div class="colibri-widget-content-container">			<div class="textwidget"><p>铁道少女非公式网站</p>
-<p>维护人员(以网名排序):</p>
+<p>维护人员(以网名排序):<br />
+Saionji Rin<br />
+Tachibana Lolo</p>
 </div>
 		</div></div><div id="meta-4" class="widget widget_meta"><!--colibriwp_before_widget--><h5 class="widgettitle">功能</h5><div class="colibri-widget-content-container">
+		<ul>
+						<li><a href="https://girls.rail.moe/wp-login.php">登录</a></li>
+			<li><a href="https://girls.rail.moe/feed/">条目feed</a></li>
+			<li><a href="https://girls.rail.moe/comments/feed/">评论feed</a></li>
+
+			<li><a href="https://cn.wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</div></div><div id="text-5" class="widget widget_text"><!--colibriwp_before_widget--><h5 class="widgettitle">关于本站</h5><div class="colibri-widget-content-container">			<div class="textwidget"><p>由铁道少女的热心粉丝们悉心维护的铁道少女Project资料站。</p>
+</div>
+		</div></div><div id="search-4" class="widget widget_search"><!--colibriwp_before_widget--><h5 class="widgettitle">搜索</h5><div class="colibri-widget-content-container"><form role="search" method="get" class="search-form" action="https://girls.rail.moe/">
+    <div class="h-row no-gutters">
+        <div class="h-col">
+            <label class="d-block">
+                <span class="screen-reader-text">搜索：</span>
+                <input type="search"
+                       class="search-field w-100"
+                       placeholder="搜索…"
+                       value="" name="s"/>
+            </label>
+        </div>
+        <div class="h-col h-col-auto">
+            <input type="submit" class="search-submit text-button"
+                   value="搜索 "/>
+            <button type="submit" class="icon-button search-submit">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="search" viewBox="0 0 1672.2646 1896.0833">
+                    <path d="M1152 832q0-185-131.5-316.5T704 384 387.5 515.5 256 832t131.5 316.5T704 1280t316.5-131.5T1152 832zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225T0 832t55.5-273.5 150-225 225-150T704 128t273.5 55.5 225 150 150 225T1408 832q0 220-124 399l343 343q37 37 37 90z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</form>
+</div></div><div id="meta-5" class="widget widget_meta"><!--colibriwp_before_widget--><h5 class="widgettitle">功能</h5><div class="colibri-widget-content-container">
 		<ul>
 						<li><a href="https://girls.rail.moe/wp-login.php">登录</a></li>
 			<li><a href="https://girls.rail.moe/feed/">条目feed</a></li>
@@ -2759,7 +2796,7 @@ var colibriData = {"132-h2":{"data":{"sticky":{"className":"h-navigation_sticky 
                 <div data-colibri-id="135-f5" class="style-65 style-local-135-f5 position-relative h-element">
                   <!---->
                   <div class="h-global-transition-all">© 2021 铁道少女Project. Created for free using WordPress and
-                    <a target="_blank" href="https://colibriwp.com">Colibri</a></div>
+                    <a target="_blank" href="https://colibriwp.com" rel="noopener">Colibri</a></div>
                 </div>
               </div>
             </div>
